@@ -1,0 +1,17 @@
+# --- FastAPI / ASGI ---
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+
+# --- Groq SDK (single API key drives STT, LLM, TTS) ---
+groq==0.18.1
+
+# --- LangChain (text chunking only) ---
+langchain-text-splitters==0.3.4
+
+# --- Vector DB + embeddings ---
+chromadb==0.6.3
+sentence-transformers==3.4.1
+
+# --- Document parsing ---
+pypdf==5.1.0
